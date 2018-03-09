@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background=" #64DDBB"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:background="#ffff"
+        android:layout_margin="10dp"
+
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+    <TextView
+        android:id="@+id/ed"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="match_parent"
+
+
+        android:background="#ffff"
+
+        />
+        <Button
+            android:text="voice"
+
+            android:id="@+id/bt"
+            android:textSize="10sp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <EditText
+
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="15sp"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:text="" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background=" #F04903"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="60sp"
+
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+
+            android:textAlignment="center"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints=" #6cdf58"
+            android:background=" #6cdf58"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background=" #F04903"
+        android:orientation="horizontal"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <TextView
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="60sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/minus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background=" #F04903"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="60sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <TextView
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/mult"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="×"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background=" #F04903"
+        android:orientation="horizontal"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+
+        <TextView
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:id="@+id/v1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="c" />
+
+        <TextView
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/dot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="•"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/divide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="÷"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background=" #F04903"
+
+        android:orientation="horizontal"
+        tools:context="com.wordpress.fuenique.calci.MainActivity">
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="S1"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="S2"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/square"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="^"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/equal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background=" #6cdf58"
+            android:text="="
+            android:textAlignment="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+    </LinearLayout>
+
